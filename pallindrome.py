@@ -1,8 +1,3 @@
-"""
-Input: string
-Output: List of palindrome occurrences and length of palindrome list
-"""
-
 
 def get_palindrome(string):
     cnt = 1
@@ -22,6 +17,7 @@ def get_palindrome(string):
 
 if __name__ == '__main__':
     occr_cnt = 1
+    print("Enter string:", end=" ")
     input_string = input()
     pall_len, pall_list = get_palindrome(input_string)
     print("{} palindrome occurrences".format(pall_len))

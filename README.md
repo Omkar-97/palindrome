@@ -3,14 +3,11 @@ To find the set of palindrome occurrences from a given string.
 
 For example,
 ```
-input:
-string = aabaa
-
-output:
+Enter string: madam
 5 palindrome occurrences
-Occurrence 1: a
-Occurrence 2: b
-Occurrence 3: aa
-Occurrence 4: aba
-Occurrence 5: aabaa
+Occurrence 1: m
+Occurrence 2: a
+Occurrence 3: d
+Occurrence 4: ada
+Occurrence 5: madam
 ```
